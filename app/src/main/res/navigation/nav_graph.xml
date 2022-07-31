@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profile">
+    <activity
+        android:id="@+id/home"
+        android:name="com.example.navbarapp.bottomNav"
+        android:label="activity_bottomNav"
+        tools:layout="@layout/activity_bottom_nav" />
+    <activity
+        android:id="@+id/profile"
+        android:name="com.example.navbarapp.profileactivity"
+        android:label="activity_profileactivity"
+        tools:layout="@layout/activity_profileactivity" />
+    <activity
+        android:id="@+id/search"
+        android:name="com.example.navbarapp.searchactivity"
+        android:label="activity_searchactivity"
+        tools:layout="@layout/activity_searchactivity" />
+
+</navigation>
